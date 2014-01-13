@@ -21,6 +21,8 @@
 		00AA765A1883D682006B7A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA763C1883D682006B7A86 /* UIKit.framework */; };
 		00AA76621883D682006B7A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AA76601883D682006B7A86 /* InfoPlist.strings */; };
 		00AA76641883D682006B7A86 /* DbTableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA76631883D682006B7A86 /* DbTableTestTests.m */; };
+		00AA766F1883D6E6006B7A86 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA766E1883D6E6006B7A86 /* Movie.m */; };
+		00AA76711883E0C5006B7A86 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA76701883E0C5006B7A86 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		00AA765F1883D682006B7A86 /* DbTableTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DbTableTestTests-Info.plist"; sourceTree = "<group>"; };
 		00AA76611883D682006B7A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AA76631883D682006B7A86 /* DbTableTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DbTableTestTests.m; sourceTree = "<group>"; };
+		00AA766D1883D6E6006B7A86 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		00AA766E1883D6E6006B7A86 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		00AA76701883E0C5006B7A86 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AA76711883E0C5006B7A86 /* libsqlite3.dylib in Frameworks */,
 				00AA763B1883D682006B7A86 /* CoreGraphics.framework in Frameworks */,
 				00AA763D1883D682006B7A86 /* UIKit.framework in Frameworks */,
 				00AA76391883D682006B7A86 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		00AA76371883D682006B7A86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AA76701883E0C5006B7A86 /* libsqlite3.dylib */,
 				00AA76381883D682006B7A86 /* Foundation.framework */,
 				00AA763A1883D682006B7A86 /* CoreGraphics.framework */,
 				00AA763C1883D682006B7A86 /* UIKit.framework */,
@@ -119,6 +126,8 @@
 				00AA764E1883D682006B7A86 /* ViewController.m */,
 				00AA76501883D682006B7A86 /* Images.xcassets */,
 				00AA763F1883D682006B7A86 /* Supporting Files */,
+				00AA766D1883D6E6006B7A86 /* Movie.h */,
+				00AA766E1883D6E6006B7A86 /* Movie.m */,
 			);
 			path = DbTableTest;
 			sourceTree = "<group>";
@@ -251,6 +260,7 @@
 			files = (
 				00AA764F1883D682006B7A86 /* ViewController.m in Sources */,
 				00AA76491883D682006B7A86 /* AppDelegate.m in Sources */,
+				00AA766F1883D6E6006B7A86 /* Movie.m in Sources */,
 				00AA76451883D682006B7A86 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
