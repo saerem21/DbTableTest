@@ -23,6 +23,7 @@
 		00AA76641883D682006B7A86 /* DbTableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA76631883D682006B7A86 /* DbTableTestTests.m */; };
 		00AA766F1883D6E6006B7A86 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA766E1883D6E6006B7A86 /* Movie.m */; };
 		00AA76711883E0C5006B7A86 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA76701883E0C5006B7A86 /* libsqlite3.dylib */; };
+		00AA76731883E844006B7A86 /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 00AA76721883E844006B7A86 /* db.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		00AA766D1883D6E6006B7A86 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
 		00AA766E1883D6E6006B7A86 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
 		00AA76701883E0C5006B7A86 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		00AA76721883E844006B7A86 /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		00AA763E1883D682006B7A86 /* DbTableTest */ = {
 			isa = PBXGroup;
 			children = (
+				00AA76721883E844006B7A86 /* db.sqlite */,
 				00AA76471883D682006B7A86 /* AppDelegate.h */,
 				00AA76481883D682006B7A86 /* AppDelegate.m */,
 				00AA764A1883D682006B7A86 /* Main.storyboard */,
@@ -240,6 +243,7 @@
 				00AA76511883D682006B7A86 /* Images.xcassets in Resources */,
 				00AA76431883D682006B7A86 /* InfoPlist.strings in Resources */,
 				00AA764C1883D682006B7A86 /* Main.storyboard in Resources */,
+				00AA76731883E844006B7A86 /* db.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
